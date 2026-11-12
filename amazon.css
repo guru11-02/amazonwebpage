@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: aliceblue;
+}
+
+/* row 1 */
+/* amazon image */
+.row1{
+    
+    display: flex;
+    align-content: center;
+    height: 70px;
+    overflow-x: scroll;
+    overflow: hidden;
+    background-color: rgb(14, 14, 40);
+}
+
+.ri1{
+    height: 25px ;
+}
+.ridiv{
+    
+    padding: 10px;
+    height: 100%;
+}
+
+
+
+/* address */
+
+.add{
+    margin-left: 0%;
+    padding: 10px;
+}
+
+
+/* search bar */
+
+.searchbar{
+    padding: 10px;
+display: grid;
+grid-template-columns: auto 2fr auto;
+gap: 0px;
+width: 100%;
+}
+
+.r1menu{
+    background: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+    width: 40px;
+    height: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.ic{
+    background: orange;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+input{
+    height: 25px; ;
+    border: none;
+    padding: 10px;
+    min-width: 150px;
+    width: 100%;
+}
+
+/* row2  */
+
+.row2{
+    background-color: rgb(48, 49, 84);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.rimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  
+}
+.rimg{
+   
+    justify-content: end;
+    align-items: center;
+    object-fit: cover;
+}
+   
+
+.r2menu{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.rufus{
+    border-radius: 10px;
+    width: fit-content;
+    color: black;
+    padding: 5px;
+    background-color: rgba(244, 226, 224, 0.723);
+}
+
+
+/* hello  */
+
+.Hello{
+
+padding: 5px;
+font-size: small;
+width: 300px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+
+  .Return{
+justify-content: center;
+align-items: center;
+text-align: center;
+}  
+
+.basket{
+    padding: 10px;
+    font-size: 40px;
+    justify-items: center;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+/* ======================================================================== */
+
+/* Section 1*/
+
+
+.advides{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+    gap: 15px;
+    
+}
+
+
+
+.adi{
+    height: 450px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Section 2  */
+
+
+.grade{
+    background-image: linear-gradient(to right  ,rgb(209, 138, 8) , rgb(250, 68, 68));
+    border-radius: 20px;
+}
+.grade b{
+    color: red;
+}
+
+.co{
+    background-color: red;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+}
+
+.title{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.diswhite{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.diswhite img{
+    height: 150px;
+
+}
+
+
+.gre{
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: 2fr 2fr ;
+}
+
+.gre img{
+    border-radius: 15px;
+}
+
+.sec{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
+
+}
+
+
+@media (max-width: 800px) {
+    .sec{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
